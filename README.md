@@ -29,11 +29,11 @@ The rationale behind using these steps are explained in the analysis section of 
 
 #### Observed Values
 
-*Number of Parameters:* 82,298
-*Number of Epochs:* 50
-*Validation Accuracy:* 79.67
-*Training Accuracy:* 97.02
-*Max Receptive Field:* 68
+* *Number of Parameters:* 82,298
+* *Number of Epochs:* 50
+* *Validation Accuracy:* 79.67
+* *Training Accuracy:* 97.02
+* *Max Receptive Field:* 68
 
 #### Resultant Graphs
 
@@ -52,11 +52,11 @@ Removed all Max Pool layer and replaced it with Strided Convolution Layers with 
 
 #### Observed Values
 
-*Number of Parameters:* 1,65,562
-*Number of Epochs:* 50
-*Validation Accuracy:* 78.18
-*Training Accuracy:* 98.66
-*Max Receptive Field:* 75
+* *Number of Parameters:* 1,65,562
+* *Number of Epochs:* 50
+* *Validation Accuracy:* 78.18
+* *Training Accuracy:* 98.66
+* *Max Receptive Field:* 75
 
 #### Resultant Graphs
 
@@ -84,11 +84,11 @@ The image augmentations that we used were:
 
 #### Observed Values
 
-*Number of Parameters:* 96,490
-*Number of Epochs:* 100
-*Validation Accuracy:* 86.23
-*Training Accuracy:* 83.12
-*Max Receptive Field:* 75
+* *Number of Parameters:* 96,490
+* *Number of Epochs:* 100
+* *Validation Accuracy:* 86.23
+* *Training Accuracy:* 83.12
+* *Max Receptive Field:* 75
 
 #### Resultant Graphs
 
@@ -107,11 +107,11 @@ Add Depthwise Separable Convolutions at particular layers.
 
 #### Observed Values
 
-*Number of Parameters:* 97,546
-*Number of Epochs:* 100
-*Validation Accuracy:* 86.64
-*Training Accuracy:* 83.43
-*Max Receptive Field:* 89
+* *Number of Parameters:* 97,546
+* *Number of Epochs:* 100
+* *Validation Accuracy:* 86.64
+* *Training Accuracy:* 83.43
+* *Max Receptive Field:* 89
 
 #### Resultant Graphs
 
@@ -130,11 +130,11 @@ Added Dilated Convolution layers in the beginning of each block of the network.
 
 #### Observed Values
 
-*Number of Parameters:* 69,706
-*Number of Epochs:* 300
-*Validation Accuracy:* 85.08
-*Training Accuracy:* 82.83
-*Max Receptive Field:* 509
+* *Number of Parameters:* 69,706
+* *Number of Epochs:* 300
+* *Validation Accuracy:* 85.08
+* *Training Accuracy:* 82.83
+* *Max Receptive Field:* 509
 
 #### Resultant Graphs
 
@@ -153,11 +153,11 @@ Used only one dilated layer and convert all convolution layers to depthwise sepa
 
 #### Observed Values
 
-*Number of Parameters:* 33,994
-*Number of Epochs:* 500
-*Validation Accuracy:* 85.08
-*Training Accuracy:* 82.83
-*Max Receptive Field:* 147
+* *Number of Parameters:* 33,994
+* *Number of Epochs:* 500
+* *Validation Accuracy:* 85.08
+* *Training Accuracy:* 82.83
+* *Max Receptive Field:* 147
 
 #### Resultant Graphs
 
@@ -174,11 +174,11 @@ We went with a custom approach. In the model architecture, we removed strided co
 
 #### Observed Values
 
-*Number of Parameters:* 88,384
-*Number of Epochs:* 250
-*Validation Accuracy:* 87.45
-*Training Accuracy:* 85.99
-*Max Receptive Field:* 467
+* *Number of Parameters:* 88,384
+* *Number of Epochs:* 250
+* *Validation Accuracy:* 87.45
+* *Training Accuracy:* 85.99
+* *Max Receptive Field:* 467
 
 #### Resultant Graphs
 
