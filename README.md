@@ -37,8 +37,8 @@ The rationale behind using these steps are explained in the analysis section of 
 
 #### Resultant Graphs
 
-![Accuracy](./images/01_TestvTrainAcc.png)
-![Loss](./images/01_TestvTrainLoss.png)
+![Accuracy](./Images/01_TestvTrainAcc.png)
+![Loss](./Images/01_TestvTrainLoss.png)
 
 #### Analysis
 
@@ -60,8 +60,8 @@ Removed all Max Pool layer and replaced it with Strided Convolution Layers with 
 
 #### Resultant Graphs
 
-![Accuracy](./images/02_TestvTrainAcc.png)
-![Loss](./images/02_TestvTrainLoss.png)
+![Accuracy](./Images/02_TestvTrainAcc.png)
+![Loss](./Images/02_TestvTrainLoss.png)
 
 #### Analysis
 
@@ -80,7 +80,7 @@ The image augmentations that we used were:
 
 #### Image Augmentation Example
 
-![Image Augmentations](./images/07_AugmentedImages.png)
+![Image Augmentations](./Images/07_AugmentedImages.png)
 
 #### Observed Values
 
@@ -92,8 +92,8 @@ The image augmentations that we used were:
 
 #### Resultant Graphs
 
-![Accuracy](./images/03_TestvTrainAcc.png)
-![Loss](./images/03_TestvTrainLoss.png)
+![Accuracy](./Images/03_TestvTrainAcc.png)
+![Loss](./Images/03_TestvTrainLoss.png)
 
 #### Analysis
 
@@ -115,8 +115,8 @@ Add Depthwise Separable Convolutions at particular layers.
 
 #### Resultant Graphs
 
-![Accuracy](./images/04_TestvTrainAcc.png)
-![Loss](./images/04_TestvTrainLoss.png)
+![Accuracy](./Images/04_TestvTrainAcc.png)
+![Loss](./Images/04_TestvTrainLoss.png)
 
 #### Analysis
 
@@ -138,8 +138,8 @@ Added Dilated Convolution layers in the beginning of each block of the network.
 
 #### Resultant Graphs
 
-![Accuracy](./images/05_TestvTrainAcc.png)
-![Loss](./images/05_TestvTrainLoss.png)
+![Accuracy](./Images/05_TestvTrainAcc.png)
+![Loss](./Images/05_TestvTrainLoss.png)
 
 #### Analysis
 
@@ -161,8 +161,8 @@ Used only one dilated layer and convert all convolution layers to depthwise sepa
 
 #### Resultant Graphs
 
-![Accuracy](./images/06_TestvTrainAcc.png)
-![Loss](./images/06_TestvTrainLoss.png)
+![Accuracy](./Images/06_TestvTrainAcc.png)
+![Loss](./Images/06_TestvTrainLoss.png)
 
 #### Analysis
 
@@ -182,8 +182,8 @@ We went with a custom approach. In the model architecture, we removed strided co
 
 #### Resultant Graphs
 
-![Accuracy](./images/07_TestvTrainAcc.png)
-![Loss](./images/07_TestvTrainLoss.png)
+![Accuracy](./Images/07_TestvTrainAcc.png)
+![Loss](./Images/07_TestvTrainLoss.png)
 
 #### Analysis
 
@@ -191,11 +191,11 @@ We achieved the best validation accuracy of 87.45% using this network architectu
 
 ##### Incorrect Predictions
 
-![Incorrect Predictions](./images/07_MisClassified.png)
+![Incorrect Predictions](./Images/07_MisClassified.png)
 
 ##### Confusion Matrix
 
-![Confusion Matrix](./images/07_HeatMap.png)
+![Confusion Matrix](./Images/07_HeatMap.png)
 
 ## Receptive Field Calculations
 
