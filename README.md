@@ -200,6 +200,7 @@ We achieved the best validation accuracy of 87.45% using this network architectu
 ## Receptive Field Calculations
 
 The receptive Field calculations for each network can be viewed here: [Link](https://docs.google.com/spreadsheets/d/1HaES-XtkUb86mPW8PaTGa-gEWQQ35IYYIkccljW-9W0/edit?usp=sharing)
+
 You can download the excel sheet here: [Link](./Receptive_Field_Calculations.xlsx)
 
 ## Collaborators
