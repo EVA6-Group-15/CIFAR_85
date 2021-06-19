@@ -18,7 +18,7 @@ Having our goal set, we decided to try to approach the problem in small steps. T
 3. Add Image Augmentations - [Notebook 3](./notebooks/CIFAR10_03_ImgAug.ipynb)
 4. Use Depthwise Separable Convolution Layers - [Notebook 4](./notebooks/CIFAR10_04_DepthConv.ipynb)
 5. Use Dilated Convolution Layers - [Notebook 5](./notebooks/CIFAR10_05_Dilated.ipynb)
-6. Use Depthwise Separable Convolution Layers instead of traditional Convolution layers through out the network - [Notebook 6]()
+6. Use Depthwise Separable Convolution Layers instead of traditional Convolution layers through out the network - [Notebook 6](./notebooks/CIFAR10_06_All_Depth.ipynb)
 7. Go All In with building a complex network architecture - [Notebook 7](./notebooks/CIFAR10_07_All_IN.ipynb)
 
 The rationale behind using these steps are explained in the analysis section of each observation below.
